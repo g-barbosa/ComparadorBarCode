@@ -1,0 +1,30 @@
+h1{
+	text-align: center;
+	color: white;
+	font-size: 70px;
+
+}
+
+input {
+	font-size: 50px;
+}
+
+body{
+	background-color: grey;
+}
+
+.entradas {
+	text-align: center;
+}
+
+.iguais{
+	background-color: green; 
+}
+
+.diferentes {
+	background-color: red;
+}
+
+.naoComparou {
+	background-color: grey;
+}
