@@ -2,6 +2,8 @@ var campoCodigoUm = document.querySelector("#codeOne");
 var campoCodigoDois = document.querySelector("#codeTwo");
 var body = document.querySelector("#corpo");
 
+campoCodigoUm.focus();
+
 campoCodigoUm.addEventListener("keyup",function(e){
 	body.className = "";
 	var key = e.which || e.keyCode;
